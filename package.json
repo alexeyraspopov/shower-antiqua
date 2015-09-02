@@ -1,0 +1,25 @@
+{
+  "name": "shower-theme",
+  "version": "0.0.0",
+  "description": "Shower theme",
+  "repository": "alexeyraspopov/shower-theme",
+  "scripts": {
+    "build": "postcss --use autoprefixer styles/theme.css -d styles/screen.css"
+  },
+  "keywords": [
+    "shower",
+    "presentation",
+    "theme"
+  ],
+  "author": "Alexey Raspopov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexeyraspopov/shower-theme/issues"
+  },
+  "homepage": "https://github.com/alexeyraspopov/shower-theme#readme",
+  "devDependencies": {
+    "autoprefixer": "~5.2.0",
+    "autoprefixer-core": "~5.2.1",
+    "postcss": "~5.0.4"
+  }
+}
